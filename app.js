@@ -166,7 +166,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <!-- Editorial Intro -->
       <section class="editorial-intro">
         <p>
-          The Geniuses of Trading is an independent educational project dedicated to traders and
+          <strong>The Geniuses of Trading</strong> is an independent educational project dedicated to traders and
           financial market professionals who have distinguished themselves through results, research,
           method, and concrete contributions to the history of modern trading.
         </p>
@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", () => {
           operational skill.
         </p>
         <p>
-          The Geniuses of Trading is an independent starting point for orientation, technical study, and
+          <strong>The Geniuses of Trading</strong> is an independent starting point for orientation, technical study, and
           research. It does not constitute financial advertising, endorsement, or investment advice.
         </p>
       </section>
