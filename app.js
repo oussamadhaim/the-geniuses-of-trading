@@ -166,13 +166,33 @@ document.addEventListener("DOMContentLoaded", () => {
       <!-- Editorial Intro -->
       <section class="editorial-intro">
         <p>
-          The Geniuses of Trading is an independent educational project dedicated to modern traders and financial market professionals who have distinguished themselves through results, research, methods, and practical applications.
+          The Geniuses of Trading is an independent educational project dedicated to traders and
+          financial market professionals who have distinguished themselves through results, research,
+          method, and concrete contributions to the history of modern trading.
         </p>
         <p>
-          Our goal is to provide a structured and concise overview of influential figures in modern trading, while allowing contributions from researchers, practitioners, and those who have studied their strategies.
+          Our goal is to provide a concise, structured, and objective archive of truly influential figures,
+          selected according to their professional background, documented results, strategies developed,
+          and impact on financial markets.
         </p>
         <p>
-          The profiles contained in this archive are designed as an objective starting point for orientation, research, and technical study. They are not endorsements, financial advertisements, or investment recommendations.
+          The profiles included in this archive, including those suggested by the community, have no
+          promotional purpose. They are not intended to advertise brokers, platforms, trading courses, or
+          paid services.
+        </p>
+        <p>
+          This project also aims to distinguish itself from the many lists found online, which are often built
+          around commercial interests, retail broker affiliations, or the promotion of trading courses and
+          speculative products such as CFDs.
+        </p>
+        <p>
+          Here, we do not celebrate trading marketing. We focus on the real figures who have left a mark
+          on the markets through authentic careers, concrete results, discipline, research, and genuine
+          operational skill.
+        </p>
+        <p>
+          The Geniuses of Trading is an independent starting point for orientation, technical study, and
+          research. It does not constitute financial advertising, endorsement, or investment advice.
         </p>
       </section>
 
