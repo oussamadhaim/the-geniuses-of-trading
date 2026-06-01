@@ -188,7 +188,7 @@ const tradersData = [
     id: "paul-tudor-jones",
     name: "Paul Tudor Jones",
     area: "Discretionary Trading",
-    knownFor: "Founder of Tudor Investment Corporation, famous for predicting and profiting from the 1987 Black Monday crash.",
+    knownFor: "The macro trader who anticipated Black Monday",
     bio: "Paul Tudor Jones II (born 1954) is a legendary American discretionary macro trader and hedge fund manager. In 1980, he founded Tudor Investment Corporation, leading it to become one of the premier macro funds in the world. Jones is best known for predicting the historic 'Black Monday' stock market crash of October 1987. By aggressively shorting stock index futures, he achieved a net return of over 62% in a single month and finished the year up 201.3%. His style is defined by aggressive risk management, deep market intuition, and combining macroeconomic indicators with strict technical charting.",
     whyIncluded: [
       "Achieved legendary returns during the 1987 crash, proving the efficacy of discretionary macro hedging and trend analysis.",
@@ -205,6 +205,17 @@ const tradersData = [
       achievements: "Built Tudor Investment Corporation into a multi-billion dollar macro investment powerhouse. Honored with lifetime achievement awards by the hedge fund industry.",
       riskManagement: "Mental agility and ego preservation. He operates under the principle that 'every day I assume every position I have is wrong.' Employs strict visual stop-losses and decreases position sizes when trading poorly."
     },
+    customContent: `
+      <div style="font-size: 1.5rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1;">—</div>
+      <p>Paul Tudor Jones is one of the most influential discretionary macro traders in modern financial history. Founder of Tudor Investment Corporation, he became legendary for anticipating and profiting from the 1987 stock market crash, known as Black Monday.</p>
+      <p>His importance goes far beyond a single historic trade. Jones built a distinctive trading style based on macroeconomic vision, market cycles, technical analysis, capital protection, and exceptional mental discipline.</p>
+      <p>He represents the kind of trader who combines intuition with preparation. His work is not based on simplistic formulas or public promises, but on the ability to read global markets, identify imbalances, and act decisively when risk and reward are strongly asymmetric.</p>
+      <p>Jones is widely associated with the 200-day moving average, used as a key reference to understand the broader structure of market trends. He is also known for a powerful risk-management philosophy: every position must be constantly questioned. For him, protecting capital is as important as generating returns.</p>
+      <p>His figure is also linked to the documentary Trader, which offered a rare look into high-level discretionary trading, showing the pressure, speed, and depth of analysis required to operate in major markets.</p>
+      <p>Paul Tudor Jones is included in The Geniuses of Trading because he left a lasting mark on macro trading. He proved that intuition and method can coexist, but only when supported by study, discipline, mental flexibility, and strict risk control.</p>
+      <p>He is not a symbol of financial marketing, but of an authentic trading school: the school of great market operators capable of reading uncertainty and transforming it into opportunity.</p>
+      <p>For this reason, Paul Tudor Jones remains one of the true geniuses of modern trading.</p>
+    `,
     sources: [
       { name: "Tudor Investment Corporation", type: "Official Website", url: "https://www.tudor.com" },
       { name: "Market Wizards: Interviews with Top Traders", type: "Book", url: "https://www.google.com/search?q=Market+Wizards+Jack+Schwager" },
