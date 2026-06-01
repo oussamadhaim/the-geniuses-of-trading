@@ -2,9 +2,9 @@
 const tradersData = [
   {
     id: "jim-simons",
-    name: "Jim Simons",
+    name: "James Harris Simons",
     area: "Quantitative Trading",
-    knownFor: "Founder of Renaissance Technologies and Medallion Fund, pioneer of quantitative and mathematical investing.",
+    knownFor: "The Mathematician Who Changed Modern Trading",
     bio: "James Harris Simons (1938–2024) was an American mathematician, hedge fund manager, and philanthropist. In 1982, he founded Renaissance Technologies, a private hedge fund based in New York. Its flagship Medallion Fund, famed for the greatest track record in modern financial history, pioneered quantitative trading, relying entirely on mathematical and statistical models to execute automated trades. By excluding human emotion and qualitative judgment, Simons established code-driven algorithmic trading as the dominant force in global markets.",
     whyIncluded: [
       "Achieved unprecedented annualized returns of over 60% gross (39% net of fees) from 1988 to 2018, demonstrating the supreme efficacy of mathematical modeling.",
@@ -21,6 +21,16 @@ const tradersData = [
       achievements: "Built the most profitable hedge fund in history. Co-founded the Simons Foundation, donating billions to mathematics and basic science research.",
       riskManagement: "Rigid, system-wide automated risk limits. Medallion utilized dynamic position sizing, ensuring no single trade or market event could cause catastrophic loss, backed by massive diversification across thousands of global instruments."
     },
+    customContent: `
+      <p>James Harris Simons was one of the greatest innovators in contemporary finance. A mathematician, founder of Renaissance Technologies, and creator of the legendary Medallion Fund, he proved that markets could be approached not through emotion, opinion, or subjective forecasts, but through data, statistics, mathematical models, and automated systems.</p>
+      <p>His greatness lies not only in the extraordinary results achieved, but in the way he transformed trading itself. Simons replaced discretionary intuition with scientific research, algorithms, pattern recognition, and rigorous risk management. Through his work, quantitative trading became one of the dominant forces in global markets.</p>
+      <p>Even after his passing, his legacy continues through Renaissance Technologies, one of the most private, independent, and respected organizations in the world of finance. The Medallion Fund remains an almost inaccessible symbol: not a product built to be sold to the public, but a private financial laboratory based on expertise, selection, and results.</p>
+      <p>Simons represents the opposite of modern financial marketing. He is not remembered for courses, promises, or publicity, but for building a real, documented, and revolutionary method.</p>
+      <p>For this reason, James Harris Simons stands among the true geniuses of trading: he created an era, forever changing the way markets are studied, interpreted, and traded.</p>
+      <p style="margin-top: 2rem; font-weight: 600; color: var(--text-primary); font-size: 1.1rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+        What is, in your view, the most important legacy James Simons left to modern trading?
+      </p>
+    `,
     sources: [
       { name: "Simons Foundation", type: "Official Website", url: "https://www.simonsfoundation.org" },
       { name: "The Man Who Solved the Market", type: "Book", url: "https://www.google.com/search?q=The+Man+Who+Solved+the+Market+Gregory+Zuckerman" },

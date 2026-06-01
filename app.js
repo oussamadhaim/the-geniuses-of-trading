@@ -464,42 +464,48 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="profile-layout">
           <!-- Left Column (Biography & Contributions) -->
           <div class="profile-main">
-            <!-- Brief Profile -->
-            <section class="profile-body-section">
-              <h2>Biography & Historical Impact</h2>
-              <p>${trader.bio}</p>
-            </section>
+            ${trader.customContent ? `
+              <section class="profile-body-section">
+                ${trader.customContent}
+              </section>
+            ` : `
+              <!-- Brief Profile -->
+              <section class="profile-body-section">
+                <h2>Biography & Historical Impact</h2>
+                <p>${trader.bio}</p>
+              </section>
 
-            <!-- Why Included -->
-            <section class="profile-body-section">
-              <h2>Why This Trader Is Included</h2>
-              <ul class="why-included-list">
-                ${trader.whyIncluded.map(point => `<li>${point}</li>`).join("")}
-              </ul>
-            </section>
+              <!-- Why Included -->
+              <section class="profile-body-section">
+                <h2>Why This Trader Is Included</h2>
+                <ul class="why-included-list">
+                  ${trader.whyIncluded.map(point => `<li>${point}</li>`).join("")}
+                </ul>
+              </section>
 
-            <!-- Main Contributions -->
-            <section class="profile-body-section">
-              <h2>Core Technical Contributions</h2>
-              <div class="contributions-grid">
-                <div class="contribution-box">
-                  <h3>Trading Methodology</h3>
-                  <p>${trader.contributions.methodology}</p>
+              <!-- Main Contributions -->
+              <section class="profile-body-section">
+                <h2>Core Technical Contributions</h2>
+                <div class="contributions-grid">
+                  <div class="contribution-box">
+                    <h3>Trading Methodology</h3>
+                    <p>${trader.contributions.methodology}</p>
+                  </div>
+                  <div class="contribution-box">
+                    <h3>Technical Analysis Approach</h3>
+                    <p>${trader.contributions.technicalAnalysis}</p>
+                  </div>
+                  <div class="contribution-box">
+                    <h3>Key Research & Publications</h3>
+                    <p>${trader.contributions.research}</p>
+                  </div>
+                  <div class="contribution-box">
+                    <h3>Risk Management & Capital Preservation</h3>
+                    <p>${trader.contributions.riskManagement}</p>
+                  </div>
                 </div>
-                <div class="contribution-box">
-                  <h3>Technical Analysis Approach</h3>
-                  <p>${trader.contributions.technicalAnalysis}</p>
-                </div>
-                <div class="contribution-box">
-                  <h3>Key Research & Publications</h3>
-                  <p>${trader.contributions.research}</p>
-                </div>
-                <div class="contribution-box">
-                  <h3>Risk Management & Capital Preservation</h3>
-                  <p>${trader.contributions.riskManagement}</p>
-                </div>
-              </div>
-            </section>
+              </section>
+            `}
           </div>
 
           <!-- Right Column (Sources & Resources) -->
