@@ -77,33 +77,6 @@ const tradersData = [
     ]
   },
   {
-    id: "jack-schwager",
-    name: "Jack Schwager",
-    area: "Market Research",
-    knownFor: "Authoring the 'Market Wizards' series, documenting the strategies and mindsets of elite traders.",
-    bio: "Jack D. Schwager (born 1948) is an American author, financial researcher, and industry expert in futures, hedge funds, and alternative investments. Over several decades, Schwager interviewed dozens of the most successful traders of our era across various asset classes. Through these detailed case studies, he extracted the common principles of trading mastery. His books serve as the definitive educational record of professional trading, proving that success lies in risk control and psychological alignment, not a single static indicator.",
-    whyIncluded: [
-      "Created the definitive oral history and practical archive of modern trading success across multiple decades.",
-      "Identified and cataloged key commonalities among elite performers (risk control, discipline, patience, personal style).",
-      "Established the core principle that there is no single 'correct' trading system; successful traders must find a method that aligns with their unique personality.",
-      "Demystified hedge fund structures and CTA performance, making professional portfolio theory accessible to the public.",
-      "Authored widely referenced textbooks on futures markets and technical analysis."
-    ],
-    contributions: {
-      methodology: "Comparative performance analysis. Synthesizes qualitative insights from discretionary, systematic, quantitative, and macro traders to isolate universal rules of market engagement.",
-      technicalAnalysis: "Evaluates chart patterns and trend-following systems based on historical risk/reward efficiency rather than dogmatic rules. Focuses on support/resistance and false breakouts.",
-      research: "Performance auditing of commodity trading advisors (CTAs) and hedge funds. Created performance evaluation metrics for trading talent.",
-      books: "Author of 'Market Wizards' (1989), 'The New Market Wizards' (1992), 'Stock Market Wizards' (2001), 'Hedge Fund Market Wizards' (2012), and 'Market Sense and Nonsense' (2012).",
-      achievements: "Co-founder of FundSeeder, a platform connecting independent trading talent with institutional allocator capital. Served as Director of Futures Research for Prudential Securities.",
-      riskManagement: "Universal preservation of capital. Emphasizes that risk management is the single most critical element of trading. Advocates for pre-defining risk on every trade and scaling position size relative to the account equity."
-    },
-    sources: [
-      { name: "FundSeeder - Trading Talent Platform", type: "Official Website", url: "https://www.fundseeder.com" },
-      { name: "Market Wizards: Interviews with Top Traders (Original)", type: "Book", url: "https://www.google.com/search?q=Market+Wizards+Jack+Schwager+Original" },
-      { name: "Common Traits of Market Wizards (Jack Schwager Presentation)", type: "Video/Interview", url: "https://www.youtube.com/results?search_query=Jack+Schwager+Common+Traits+of+Market+Wizards" }
-    ]
-  },
-  {
     id: "paul-tudor-jones",
     name: "Paul Tudor Jones",
     area: "Discretionary Trading",
