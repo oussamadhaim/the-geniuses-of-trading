@@ -445,7 +445,7 @@ document.addEventListener("DOMContentLoaded", () => {
             
             <div class="profile-meta-right">
               <div class="meta-info-row">
-                <span class="meta-info-label">Trader</span>
+                <span class="meta-info-label">Specialty Category</span>
                 <span class="meta-info-value">${trader.area}</span>
               </div>
               <div class="meta-info-row">
