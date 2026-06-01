@@ -22,6 +22,7 @@ const tradersData = [
       riskManagement: "Rigid, system-wide automated risk limits. Medallion utilized dynamic position sizing, ensuring no single trade or market event could cause catastrophic loss, backed by massive diversification across thousands of global instruments."
     },
     customContent: `
+      <div style="font-size: 1.5rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1;">—</div>
       <p>James Harris Simons was one of the greatest innovators in contemporary finance. A mathematician, founder of Renaissance Technologies, and creator of the legendary Medallion Fund, he proved that markets could be approached not through emotion, opinion, or subjective forecasts, but through data, statistics, mathematical models, and automated systems.</p>
       <p>His greatness lies not only in the extraordinary results achieved, but in the way he transformed trading itself. Simons replaced discretionary intuition with scientific research, algorithms, pattern recognition, and rigorous risk management. Through his work, quantitative trading became one of the dominant forces in global markets.</p>
       <p>Even after his passing, his legacy continues through Renaissance Technologies, one of the most private, independent, and respected organizations in the world of finance. The Medallion Fund remains an almost inaccessible symbol: not a product built to be sold to the public, but a private financial laboratory based on expertise, selection, and results.</p>
@@ -123,7 +124,7 @@ const tradersData = [
     id: "nassim-taleb",
     name: "Nassim Nicholas Taleb",
     area: "Risk Management",
-    knownFor: "Developing the Black Swan theory and pioneering research on tail-risk hedging and uncertainty.",
+    knownFor: "The trader-philosopher who changed the way markets think about risk",
     bio: "Nassim Nicholas Taleb (born 1960) is a Lebanese-American essayist, mathematical statistician, former options trader, and risk analyst. He spent more than 20 years as a quantitative option trader, specializing in hedging 'tail risks' (unpredictable, extreme market events). Taleb challenged mainstream financial economics by demonstrating that standard models (such as the bell curve and Modern Portfolio Theory) drastically underestimate the frequency and impact of market crashes, offering instead a framework based on antifragility.",
     whyIncluded: [
       "Developed the 'Black Swan' theory, detailing the impact of highly improbable, high-impact events on financial systems.",
@@ -140,6 +141,17 @@ const tradersData = [
       achievements: "Distinguished Professor of Risk Engineering at NYU Tandon. Co-founder of Empirica Capital. Correctly anticipated the structural weaknesses behind the 2008 financial crisis.",
       riskManagement: "Focuses on the absolute elimination of the risk of ruin. Rather than optimizing average returns, he advocates for structural survival: avoiding debt, hedging tail-risk, and ensuring a system can withstand extreme volatility."
     },
+    customContent: `
+      <div style="font-size: 1.5rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1;">—</div>
+      <p>Nassim Nicholas Taleb is one of the most original and influential figures in modern finance. A former options trader, scholar of uncertainty, and author of the Black Swan theory, he challenged many of the traditional models used to measure risk in financial markets.</p>
+      <p>His importance does not come only from trading, but from his ability to transform direct market experience into a broader vision: major unexpected events are not marginal exceptions, but decisive forces capable of changing markets, economies, and entire systems.</p>
+      <p>Taleb criticized excessive confidence in models based on statistical normality, arguing that many classic risk-management tools underestimate exactly what matters most: extreme, rare, and devastating events.</p>
+      <p>From this view came his focus on tail-risk hedging and the use of options as instruments capable of creating asymmetric payoffs during moments of crisis.</p>
+      <p>His approach is not simply about forecasting the future. It is about building systems that can survive the unpredictable and, in some cases, benefit from it. This is the core of antifragility: not merely resisting chaos, but designing structures that may improve through volatility, stress, and uncertainty.</p>
+      <p>Taleb represents a different kind of trader. He is not known for financial marketing or for promising simple formulas, but for asking a radical question: what happens when the models fail precisely at the moments that matter most?</p>
+      <p>For this reason, Nassim Nicholas Taleb is included in The Geniuses of Trading. He brought to trading and risk management a unique perspective built on probability, philosophy, operational experience, and deep skepticism toward false certainty.</p>
+      <p>His contribution remains essential for anyone who wants to truly understand risk, uncertainty, and the fragility of modern markets.</p>
+    `,
     sources: [
       { name: "Nassim Taleb's Academic & Professional Page", type: "Official Website", url: "https://www.fooledbyrandomness.com" },
       { name: "The Black Swan: The Impact of the Highly Improbable", type: "Book", url: "https://www.google.com/search?q=The+Black+Swan+Nassim+Taleb" },
