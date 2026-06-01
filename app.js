@@ -149,11 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 1. HOME VIEW
   function renderHome() {
-    const featuredIds = ["jim-simons", "ed-seykota", "mark-douglas"];
-    const latestIds = ["nassim-taleb", "steve-nison", "jack-schwager"];
-    
-    const featuredTraders = window.tradersData.filter(t => featuredIds.includes(t.id));
-    const latestTraders = window.tradersData.filter(t => latestIds.includes(t.id));
+    const featuredTraders = window.tradersData;
 
     appRoot.innerHTML = `
       <!-- Hero -->
@@ -205,24 +201,6 @@ document.addEventListener("DOMContentLoaded", () => {
         
         <div class="traders-grid">
           ${featuredTraders.map(trader => `
-            <div class="trader-card">
-              <span class="trader-card-tag">${trader.area}</span>
-              <h3>${trader.name}</h3>
-              <p class="trader-card-description">${trader.knownFor}</p>
-              <a href="#/trader/${trader.id}" class="trader-card-action">Read Profile</a>
-            </div>
-          `).join("")}
-        </div>
-      </section>
-
-      <!-- Latest Profiles Section -->
-      <section style="margin-bottom: 4rem;">
-        <div class="section-header">
-          <h2 class="section-title">Latest Additions</h2>
-        </div>
-        
-        <div class="traders-grid">
-          ${latestTraders.map(trader => `
             <div class="trader-card">
               <span class="trader-card-tag">${trader.area}</span>
               <h3>${trader.name}</h3>
